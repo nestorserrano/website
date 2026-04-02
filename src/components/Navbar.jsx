@@ -27,11 +27,11 @@ export default function Navbar() {
 
         <div className={`collapse navbar-collapse ${abierto ? 'show' : ''}`}>
           <ul className="navbar-nav ms-auto gap-lg-3 align-items-lg-center">
-            {['inicio','servicios','porque','portafolio','nosotros'].map(seccion => (
+            {['inicio','servicios','soluciones','porque','portafolio','nosotros'].map(seccion => (
               <li key={seccion} className="nav-item">
                 <a className="nav-link text-capitalize" href={`#${seccion}`} style={{ color: '#cbd5e1' }}
                   onClick={() => setAbierto(false)}>
-                  {{ inicio: 'Inicio', servicios: 'Servicios', porque: 'Por qué Zyntello', portafolio: 'Portafolio', nosotros: 'Nosotros' }[seccion]}
+                  {{ inicio: 'Inicio', servicios: 'Servicios', soluciones: 'Soluciones', porque: 'Por qué Zyntello', portafolio: 'Portafolio', nosotros: 'Nosotros' }[seccion]}
                 </a>
               </li>
             ))}
