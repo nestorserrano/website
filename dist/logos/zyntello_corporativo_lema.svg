@@ -1,0 +1,23 @@
+<svg width="620" height="88" viewBox="0 0 620 88" xmlns="http://www.w3.org/2000/svg">
+  <rect width="620" height="88" fill="#0f0e1a" rx="12"/>
+  <polygon points="36,6 60,20 60,48 36,62 12,48 12,20" fill="#534AB7"/>
+  <polygon points="36,12 56,24 56,44 36,56 16,44 16,24" fill="none" stroke="#8b84e0" stroke-width="0.8" opacity="0.4"/>
+  <circle cx="36" cy="34" r="5" fill="#ffffff"/>
+  <circle cx="22" cy="26" r="2.5" fill="#AFA9EC"/>
+  <circle cx="50" cy="26" r="2.5" fill="#AFA9EC"/>
+  <circle cx="22" cy="42" r="2.5" fill="#AFA9EC"/>
+  <circle cx="50" cy="42" r="2.5" fill="#AFA9EC"/>
+  <circle cx="36" cy="18" r="2.5" fill="#7F77DD"/>
+  <circle cx="36" cy="50" r="2.5" fill="#7F77DD"/>
+  <line x1="36" y1="34" x2="22" y2="26" stroke="#AFA9EC" stroke-width="1" opacity="0.7"/>
+  <line x1="36" y1="34" x2="50" y2="26" stroke="#AFA9EC" stroke-width="1" opacity="0.7"/>
+  <line x1="36" y1="34" x2="22" y2="42" stroke="#AFA9EC" stroke-width="1" opacity="0.7"/>
+  <line x1="36" y1="34" x2="50" y2="42" stroke="#AFA9EC" stroke-width="1" opacity="0.7"/>
+  <line x1="36" y1="34" x2="36" y2="18" stroke="#7F77DD" stroke-width="1" opacity="0.6"/>
+  <line x1="36" y1="34" x2="36" y2="50" stroke="#7F77DD" stroke-width="1" opacity="0.6"/>
+  <text x="76" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Zy</text>
+  <text x="113" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#8b84e0" letter-spacing="-0.5">n</text>
+  <text x="131" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff" letter-spacing="-0.5">tello</text>
+  <line x1="76" y1="50" x2="600" y2="50" stroke="#534AB7" stroke-width="0.5" opacity="0.6"/>
+  <text x="76" y="68" font-family="Arial, sans-serif" font-size="11" fill="#8b84e0" letter-spacing="0.6">Datos que revelan. Tecnología que transforma. Resultados que perduran.</text>
+</svg>

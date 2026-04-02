@@ -1,0 +1,88 @@
+/* Sección Servicios */
+.servicios {
+  padding: 6rem 5%;
+  background: #0f172a;
+}
+
+.servicios-encabezado,
+.portafolio-encabezado,
+.contacto-encabezado {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.seccion-etiqueta {
+  color: #60a5fa;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.seccion-titulo {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 800;
+  color: #f1f5f9;
+  margin-bottom: 1rem;
+}
+
+.seccion-descripcion {
+  color: #94a3b8;
+  font-size: 1.05rem;
+  max-width: 560px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.8rem;
+}
+
+.servicio-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.servicio-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(59,130,246,0.4);
+}
+
+.servicio-icono {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.servicio-titulo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin-bottom: 0.8rem;
+}
+
+.servicio-descripcion {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.servicio-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.servicio-items li {
+  color: #60a5fa;
+  font-size: 0.9rem;
+}

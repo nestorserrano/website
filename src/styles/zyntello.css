@@ -1,0 +1,52 @@
+/* ── Estilos globales Zyntello ─────────────────────────────────────────────── */
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #0a0a14;
+  color: #f1f5f9;
+
+  /* ── Scroll Snap: cada sección ocupa una pantalla completa ── */
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+
+  /* Compensa el navbar fijo de 70px al hacer snap */
+  scroll-padding-top: 70px;
+}
+
+/* Cada sección se alinea al tope del viewport */
+main section,
+footer {
+  scroll-snap-align: start;
+  min-height: 100vh;
+}
+
+/* El hero ya tiene min-vh-100, no necesita duplicarlo */
+#inicio {
+  scroll-snap-align: start;
+}
+
+/* Centrar contenido verticalmente en secciones con flex */
+main section {
+  display: flex;
+  align-items: center;
+}
+
+/* ── Navbar ─────────────────────────────────────────────────────────────────── */
+.navbar-nav .nav-link:hover { color: #60a5fa !important; }
+
+/* ── Formularios ─────────────────────────────────────────────────────────────── */
+.form-control::placeholder,
+.form-select::placeholder { color: #64748b; }
+
+.form-control:focus,
+.form-select:focus {
+  background: rgba(255,255,255,0.07) !important;
+  border-color: #3b82f6 !important;
+  color: #f1f5f9 !important;
+  box-shadow: 0 0 0 0.2rem rgba(59,130,246,0.2) !important;
+}

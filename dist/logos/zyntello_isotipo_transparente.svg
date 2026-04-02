@@ -1,0 +1,17 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="40,4 68,20 68,52 40,68 12,52 12,20" fill="#534AB7"/>
+  <polygon points="40,11 62,24 62,48 40,61 18,48 18,24" fill="none" stroke="#8b84e0" stroke-width="1" opacity="0.4"/>
+  <circle cx="40" cy="36" r="7" fill="#ffffff"/>
+  <circle cx="24" cy="27" r="3.5" fill="#AFA9EC"/>
+  <circle cx="56" cy="27" r="3.5" fill="#AFA9EC"/>
+  <circle cx="24" cy="45" r="3.5" fill="#AFA9EC"/>
+  <circle cx="56" cy="45" r="3.5" fill="#AFA9EC"/>
+  <circle cx="40" cy="16" r="3.5" fill="#7F77DD"/>
+  <circle cx="40" cy="57" r="3.5" fill="#7F77DD"/>
+  <line x1="40" y1="36" x2="24" y2="27" stroke="#AFA9EC" stroke-width="1.2" opacity="0.8"/>
+  <line x1="40" y1="36" x2="56" y2="27" stroke="#AFA9EC" stroke-width="1.2" opacity="0.8"/>
+  <line x1="40" y1="36" x2="24" y2="45" stroke="#AFA9EC" stroke-width="1.2" opacity="0.8"/>
+  <line x1="40" y1="36" x2="56" y2="45" stroke="#AFA9EC" stroke-width="1.2" opacity="0.8"/>
+  <line x1="40" y1="36" x2="40" y2="16" stroke="#7F77DD" stroke-width="1.2" opacity="0.7"/>
+  <line x1="40" y1="36" x2="40" y2="57" stroke="#7F77DD" stroke-width="1.2" opacity="0.7"/>
+</svg>

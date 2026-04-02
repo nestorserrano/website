@@ -1,0 +1,18 @@
+<svg width="260" height="48" viewBox="0 0 260 48" xmlns="http://www.w3.org/2000/svg">
+  <rect width="260" height="48" fill="#ffffff" rx="8" stroke="#e0dff8" stroke-width="0.5"/>
+  <polygon points="24,3 42,13 42,33 24,43 6,33 6,13" fill="#26215C"/>
+  <circle cx="24" cy="23" r="4" fill="#ffffff"/>
+  <circle cx="14" cy="17" r="2" fill="#534AB7"/>
+  <circle cx="34" cy="17" r="2" fill="#534AB7"/>
+  <circle cx="14" cy="29" r="2" fill="#534AB7"/>
+  <circle cx="34" cy="29" r="2" fill="#534AB7"/>
+  <circle cx="24" cy="10" r="2" fill="#534AB7"/>
+  <circle cx="24" cy="36" r="2" fill="#534AB7"/>
+  <line x1="24" y1="23" x2="14" y2="17" stroke="#534AB7" stroke-width="0.8"/>
+  <line x1="24" y1="23" x2="34" y2="17" stroke="#534AB7" stroke-width="0.8"/>
+  <line x1="24" y1="23" x2="14" y2="29" stroke="#534AB7" stroke-width="0.8"/>
+  <line x1="24" y1="23" x2="34" y2="29" stroke="#534AB7" stroke-width="0.8"/>
+  <line x1="24" y1="23" x2="24" y2="10" stroke="#534AB7" stroke-width="0.8"/>
+  <line x1="24" y1="23" x2="24" y2="36" stroke="#534AB7" stroke-width="0.8"/>
+  <text x="52" y="31" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#26215C" letter-spacing="-0.3">ZYNTELLO</text>
+</svg>
