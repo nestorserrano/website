@@ -8,14 +8,17 @@ export default function Navbar() {
       <div className="container-fluid px-4">
         <a className="navbar-brand d-flex align-items-center gap-2" href="#inicio">
           <img
-            src="/logos/zyntello_principal_blanco.svg"
+            src="/logos/zyntello_isotipo_transparente.png"
             alt="Zyntello"
-            style={{ height: '36px', width: 'auto' }}
+            style={{ height: '38px', width: 'auto' }}
           />
-          <span style={{ fontSize: '0.62rem', letterSpacing: '1.5px', textTransform: 'uppercase', lineHeight: 1.3 }}>
-            <span style={{ color: '#60a5fa', display: 'block' }}>Inteligencia Artificial</span>
-            <span style={{ color: '#475569' }}>ERP · Tecnología Empresarial</span>
-          </span>
+          <div className="d-flex flex-column">
+            <span className="fw-bold text-white" style={{ fontSize: '1.3rem', lineHeight: 1.1 }}>Zyntello</span>
+            <span style={{ fontSize: '0.65rem', letterSpacing: '1.5px', textTransform: 'uppercase' }}>
+              <span style={{ color: '#60a5fa' }}>Inteligencia Artificial</span>
+              <span style={{ color: '#475569' }}> · ERP · Tecnología Empresarial</span>
+            </span>
+          </div>
         </a>
 
         <button className="navbar-toggler border-0" onClick={() => setAbierto(!abierto)} style={{ color: '#fff' }}>
